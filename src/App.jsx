@@ -1,4 +1,4 @@
-import Login from "./pages/login";
+// import Login from "./pages/login";
 import "./App.css";
 import HeroSection from "./pages/student/HeroSection";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -19,6 +19,7 @@ import SearchPage from "./pages/student/SearchPage";
 import { AdminRoute, AuthenticatedUser, ProtectedRoute } from "./components/ProtectedRoutes";
 import PurchaseCourseProtectedRoute from "./components/PurchaseCourseProtectectedRoute";
 import { ThemeProvider } from "./components/ThemeProvider";
+import Login from "./pages/Login";
 
 const appRouter = createBrowserRouter([
   {
